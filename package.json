@@ -1,0 +1,9 @@
+{
+  "name": "heart-signal-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && cp public/index.html dist/index.html",
+    "start": "python3 -m http.server 4173 -d public"
+  }
+}
